@@ -1,10 +1,10 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyAFsv2MNMTt0LJ_VbxMHkKzj7cRgy51ORg",
-    authDomain: "todo-app-program.firebaseapp.com",
-    projectId: "todo-app-program",
-    storageBucket: "todo-app-program.firebasestorage.app",
-    messagingSenderId: "996802925130",
-    appId: "1:996802925130:web:b6d34a7f6e2655c6f00cb3"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
   
 var app = firebase.initializeApp(firebaseConfig);
