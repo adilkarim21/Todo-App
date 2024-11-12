@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <br><br><br>
+        <div class="MainDivSetting">
+            <div class="iconDiv">
+                <a href="./signup.html">
+                    <i class="bi bi-person text-white fs-4 "></i>
+                </a>
+            </div>
+            <div>
+                <h1 class="text-center">Todo App</h1>
+            </div>
+            <br>
+            <div class="text-center">
+                <input class="inputSetting text-center" type="text" id="inputField" placeholder=" Add Task">
+                <br><br>
+                <button class="buttonSetting" onclick="addtodo()">Add</button>
+                <button class="buttonSetting" onclick="deleteAllItems()">Delete All</button>
+            </div>
+            <br>
+            <div class="text-center">
+                <h3>Task List</h3>
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

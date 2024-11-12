@@ -1,0 +1,69 @@
+body{ 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.MainDivSetting{
+    background-color: rgb(2,0,36);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.iconDiv{
+    text-align: right;
+}
+
+.inputSetting{
+    background-color: rgb(2,0,36);
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    color: white;
+}
+
+.buttonSetting{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: rgb(2,0,36);
+    font-weight: bold;
+}
+
+ul{
+    margin-top: 20px; 
+}
+
+li{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.deleteButtonSetting{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgb(2,0,36);
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+}
+
+.editButtonSetting{
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgb(2,0,36);
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+}
